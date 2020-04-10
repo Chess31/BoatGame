@@ -1,1 +1,1 @@
-# BoatGame
+# BoatGames
