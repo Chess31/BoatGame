@@ -1,0 +1,10 @@
+right = 0
+left = 0
+heading = 0
+boat_speed = 0
+up = 0
+down = 0
+motor_power = 0
+hsp = 0
+vsp = 0
+move = 5
