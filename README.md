@@ -1,5 +1,6 @@
 # BoatGames
 
-Testing
+This is a game about boats:
 
-Hahah
+* You can drive the boats around.
+* Well, right now that's all.
