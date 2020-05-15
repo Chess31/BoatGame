@@ -24,3 +24,51 @@ if (left > 0)
 
 // Turn the sprite to match the submarine heading.
 image_angle = heading
+
+// Move to boat y
+if (oBoat.y > y)
+{
+	y = y + 1
+}
+if (oBoat.y < y)
+{
+	y = y - 1
+}
+
+//Move to boat x
+if (oBoat.x > x)
+{
+	x = x + 1
+}
+if (oBoat.x < x)
+{
+	x = x - 1
+}
+
+// Gameover test
+
+if (place_meeting(x,y, oBoat))
+{
+	game_restart()
+}
+
+
+// Missile Laucher
+var Layer = layer_get_id("Instances")
+
+if (global.charge < 3)
+{
+	count = count-1
+}
+
+if (count < 0) and (global.charge < 3)
+{
+	global.charge = global.charge + 1
+	count = 100
+}
+
+if (keyboard_check_pressed(vk_space)) = true and (global.charge > 0)
+{
+	instance_create_layer(x,y,Layer,oTorpedo)
+	global.charge = global.charge - 1
+}

@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "07d2fd59-4d76-4af2-b4de-4ca2f89e1303",
+            "Value": {
+                "id": "f6208cba-40d6-496c-8580-12bd39c760d6",
+                "resourcePath": "objects\\oTorpedo\\oTorpedo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1d1bcd88-6203-49b5-b2fb-755429f47141",
             "Value": {
                 "id": "b01eec8f-9eaf-4080-a3a3-8e231619a8c7",
@@ -148,6 +156,14 @@
                 "id": "8767eea9-6de8-4596-a039-d2785e076db8",
                 "resourcePath": "views\/a9fc152c-7901-4bc2-86e5-8575470f3c59.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ad312284-ddd7-4576-888f-d741f8e71bbc",
+            "Value": {
+                "id": "a88bce6f-dd4b-4c71-8364-175c617cd77d",
+                "resourcePath": "sprites\\sTorpedo\\sTorpedo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
