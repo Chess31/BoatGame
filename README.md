@@ -1,6 +1,7 @@
-# BoatGames
+# Boat Game
 
 This is a game about boats:
 
 * You can drive the boats around.
-* Well, right now that's all.
+* There's a submarine.
+* The submarine shoots missiles, or are they torpedoes? We'll see...
