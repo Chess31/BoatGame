@@ -29,12 +29,12 @@ if heading < 0
 up = (keyboard_check(vk_up))
 down = (keyboard_check(vk_down))
 
-if (up > 0) and !(motor_power > 30)
+if (up > 0) and !(motor_power > 20)
 {
 	motor_power = motor_power + 1
 }
 
-if (down > 0)  and !(motor_power < -30)
+if (down > 0)  and !(motor_power < -20)
 {
 	motor_power = motor_power - 1
 }
@@ -47,5 +47,12 @@ x = x + dcos(heading)*boat_speed
 
 
 y = y - dsin(heading)*boat_speed
+
+//restart and health
+
+if (place_meeting(x,y, oTorpedo))
+{
+	game_restart()
+}
 
 
