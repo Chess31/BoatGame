@@ -48,4 +48,11 @@ x = x + dcos(heading)*boat_speed
 
 y = y - dsin(heading)*boat_speed
 
+//restart and health
+
+if (place_meeting(x,y, oTorpedo))
+{
+	game_restart()
+}
+
 
